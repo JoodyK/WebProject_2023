@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+/*findus*/
 .clear-fix:after {
   display: block;
   clear: both;
@@ -97,7 +98,7 @@
   transition: all 0.3s ease-in-out;
 }
 
-.card__collection .cards--two__tri:before {
+/*.card__collection .cards--two__tri:before {
   border-top: 220px solid transparent;
   border-bottom: 190px solid transparent;
   border-right: 288px solid #57ccfd;
@@ -108,7 +109,7 @@
   right: -612px;
   transition: all 0.3s ease-in-out;
   transition-delay: 0.2s;
-}
+}*/
 
 .card__collection .cards--two__rect {
   width: 750px;
@@ -178,6 +179,7 @@ li {
   float: left;
 }
 
+
 li a {
   display: block;
   color: blue;
@@ -186,10 +188,9 @@ li a {
   padding: 10px 20px;
   text-decoration: none;
 }
-
 .active {
   background-color: gray;
-  color: white;
+  color: rgb(101, 255, 77);
   border-radius: 50%;
 
 }
@@ -209,22 +210,112 @@ th,
 td {
   padding: 10px;
 }
-
-#form {
-  margin-left: 20px;
-}
-
 #formHeading {
   text-align: left;
+  margin-top: 5%;
 }
 
-#contactusimg { width: 40%;}
+form {
+  display:block;
+  width: 50%;
+  height: 500px;
+margin-top: 2%;
+  float: left;
+}
+
+#contactusimg {
+  display: block;
+  width: 50%;
+  height: 500px;
+  
+  float: right;
+}
+
+
+
+/*#form {
+  margin-left: 50px;
+}
+
+
+
+#contactusimg { margin-left: 50px; width: 40%;}
 #section-left {
   float: left;
 }
 
 #section-right {
-  float:inline-end;
+  float:right;
   width: 220px;
   margin-left: 30px
+}*/
+/*footer and header*/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  height: 150px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+/* Style the navigation links */
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #666;
+}
+
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-right a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.header-right a:hover {
+  background-color: #666;
+}
+
+footer p {
+
+  padding: 10px;
+  text-align: center;
+  font-size: 12px;
 }
